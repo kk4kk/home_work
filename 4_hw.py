@@ -112,7 +112,7 @@ class Button:
 
 
     def click(self):
-        return print(f'Клик по кнопке {self.text}')
+        print(f'Клик по кнопке {self.text}')
 
 button_1 = Button('Text Box', 'Button', '')
 button_2 = Button('Check Box', 'Button','')
